@@ -1,0 +1,9 @@
+[
+   {
+      "arch" : "any",
+      "url" : "hello-1.0.0.mar",
+      "name" : "hello",
+      "version" : "1.0.0",
+      "dependencies" : []
+   }
+]
