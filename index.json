@@ -1,0 +1,37 @@
+[
+  {
+    "name": "hello",
+    "version": "1.0.0",
+    "arch": "any",
+    "description": "A simple hello program",
+    "dependencies": [],
+    "url": "hello-1.0.0.mar"
+  },
+  {
+    "name": "libc",
+    "version": "2.31",
+    "arch": "amd64",
+    "description": "Standard C library",
+    "dependencies": [],
+    "url": "libc-2.31.mar"
+  },
+  {
+    "name": "zlib",
+    "version": "1.2.13",
+    "arch": "any",
+    "description": "Compression library",
+    "dependencies": [],
+    "url": "zlib-1.2.13.mar"
+  },
+  {
+    "name": "myapp",
+    "version": "3.4.1",
+    "arch": "amd64",
+    "description": "Example app that depends on libc and zlib",
+    "dependencies": [
+      "libc >= 2.31",
+      "zlib >= 1.2.13"
+    ],
+    "url": "myapp-3.4.1.mar"
+  }
+]
